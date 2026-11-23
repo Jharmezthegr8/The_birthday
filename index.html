@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#24191a">
+    <meta name="description" content="The Amarachi Edition — a special birthday magazine for December 11.">
+    <title>The Amarachi Edition — A Birthday Magazine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <!-- Section 1: Magazine cover -->
+        <section class="cover" aria-labelledby="cover-title">
+            <img class="cover-photo" src="images/amarachi-03.jpg" alt="Amarachi, featured on the cover of her birthday edition">
+            <header class="site-header">
+                <a class="brand" href="#" aria-label="The Amarachi Edition home">The Amarachi Edition</a>
+                <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-nav">
+                    <span></span><span></span>
+                </button>
+                <nav class="site-nav" id="site-nav" aria-label="Magazine sections">
+                    <a href="#letter">The letter</a>
+                    <a href="#gallery">Photo editorial</a>
+                    <a href="#friend-message">Words from her people</a>
+                    <a href="#special">Why she is special</a>
+                    <a href="#birthday">Her special day</a>
+                    <a href="#final-surprise">Final surprise</a>
+                    <a href="#final-page">The final page</a>
+                </nav>
+            </header>
+            <div class="cover-copy">
+                <p class="eyebrow">A special edition · December 11</p>
+                <p class="edition-name">A birthday magazine for Amarachi</p>
+                <h1 class="cover-title" id="cover-title">THE GIRL WHO<br>MAKES LIFE<br><em>BEAUTIFUL.</em></h1>
+                <p class="cover-subtitle">A celebration of her beauty, her heart, and the light she brings into the world.</p>
+                <a class="cover-cta" href="#letter">Open your edition <span aria-hidden="true">↘</span></a>
+            </div>
+            <p class="cover-note">The Amarachi Edition<span>December 11 · A day for you</span></p>
+        </section>
+
+        <!-- Section 2: Opening birthday letter -->
+        <section class="letter" id="letter">
+            <div class="letter-inner">
+                <p class="letter-kicker">The opening letter <span>01 — 01</span></p>
+                <h2>To the girl who<br><em>means everything.</em></h2>
+                <div class="letter-rule" aria-hidden="true"><span></span></div>
+                <p class="letter-introduction">Amarachi, if I could gather every beautiful thing this world has to offer and place it before you, it still would not fully explain how special you are.</p>
+                <div class="letter-rule letter-rule-bottom" aria-hidden="true"><span></span></div>
+                <p class="letter-ornament" aria-hidden="true">♡</p>
+                <p class="signoff">Mi Querida, Mi Corazón.</p>
+            </div>
+        </section>
+        
+        <!-- Section 3: Photo editorial and clickable gallery -->
+        <section class="moments" id="gallery">
+            <div class="moments-heading">
+                <p class="section-label">02 / The photo editorial</p>
+                <h2>Her world,<br><em>through my eyes.</em></h2>
+                <p class="moments-intro">Some moments are too beautiful to remain memories. They deserve a place in our story.</p>
+            </div>
+            <div class="gallery">
+                <figure class="gallery-item gallery-item--large">
+                    <button class="gallery-image-button" type="button" aria-label="View photo: A beauty that speaks without words">
+                        <img src="images/amarachi-03.jpg" alt="Amarachi in a white blouse, with her red hair styled up" loading="lazy">
+                    </button>
+                    <figcaption>A beauty that speaks without words.</figcaption>
+                </figure>
+                <figure class="gallery-item gallery-item--small">
+                    <button class="gallery-image-button" type="button" aria-label="View photo: The little details that make you, you">
+                        <img src="images/amarachi-02.jpg" alt="A close-up portrait of Amarachi in a dark outfit and headscarf" loading="lazy">
+                    </button>
+                    <figcaption>The little details that make you, you.</figcaption>
+                </figure>
+                <figure class="gallery-item gallery-item--wide">
+                    <button class="gallery-image-button" type="button" aria-label="View photo: A moment worth keeping forever">
+                        <img src="images/amarachi-01.jpg" alt="Amarachi and her partner sharing an outdoor moment together" loading="lazy">
+                    </button>
+                    <figcaption>A moment worth keeping forever.</figcaption>
+                </figure>
+                <figure class="gallery-item gallery-item--memory-one">
+                    <button class="gallery-image-button" type="button" aria-label="View photo: A friendship captured in a smile">
+                        <img src="images/amdalat-01.jpg" alt="A black-and-white selfie of two friends smiling together" loading="lazy">
+                    </button>
+                    <figcaption>A friendship captured in a smile.</figcaption>
+                </figure>
+                <figure class="gallery-item gallery-item--memory-two">
+                    <button class="gallery-image-button" type="button" aria-label="View photo: A little memory to keep close">
+                        <img src="images/amdalat-02.jpg" alt="A black-and-white selfie of two friends" loading="lazy">
+                    </button>
+                    <figcaption>A little memory to keep close.</figcaption>
+                </figure>
+                <figure class="gallery-item gallery-item--memory-three">
+                    <button class="gallery-image-button" type="button" aria-label="View photo: A beautiful chapter of your story">
+                        <img src="images/amdalat-03.jpg" alt="A group of school friends gathered together outdoors" loading="lazy">
+                    </button>
+                    <figcaption>A beautiful chapter of your story.</figcaption>
+                </figure>
+                <figure class="gallery-item gallery-item--small">
+                    <button class="gallery-image-button" type="button" aria-label="View photo: Another beautiful moment to keep">
+                        <img src="amarachi-04.jpg.jpeg" alt="Amarachi in another birthday portrait" loading="lazy">
+                    </button>
+                    <figcaption>Another beautiful moment to keep.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Gallery lightbox: opened by clicking a photo -->
+        <dialog class="photo-lightbox" aria-label="Enlarged photograph">
+            <button class="lightbox-close" type="button" aria-label="Close photograph">Close <span aria-hidden="true">×</span></button>
+            <img class="lightbox-image" alt="">
+            <p class="lightbox-caption"></p>
+        </dialog>
+        <!-- Section 4: Birthday messages from friends -->
+        <section class="friend-message" id="friend-message">
+            <div class="friend-message-heading">
+                <p class="section-label">04 / Words from her people</p>
+                <h2>A thousand reasons<br><em>to celebrate you.</em></h2>
+                <p class="friend-message-intro">Beautiful words from the people whose lives you have touched.</p>
+            </div>
+            <div class="friend-message-grid">
+                <article class="friend-note">
+                    <img class="friend-note-photo" src="images/amdalat-01.jpg" alt="Amdalat and Amarachi together">
+                    <p class="friend-note-label">A birthday wish</p>
+                    <blockquote>
+                        <p>No matter how much life changes or how far apart we grow, you’ll always have a special place in my heart. I pray life is kind to you, that happiness never leaves you and that we never become strangers.</p>
+                        <p>I love you more than words can explain, Amarachi😘❤️.</p>
+                    </blockquote>
+                    <p class="friend-signoff">With so much love, <strong>Amdalat</strong></p>
+                </article>
+                <article class="friend-note">
+                    <img class="friend-note-photo" src="images/mitchell.jpg" alt="Mitchell and Amarachi smiling together">
+                    <p class="friend-note-label">A birthday wish</p>
+                    <blockquote>
+                        <p>Happy Birthday, Amarachi! 🥳💗🎂 Welcome to the big 2-0! 😂❤️ May this new chapter bring you so much happiness, beautiful memories, answered prayers, and all the good things your heart desires. Keep being the sweet and amazing person you are. 🥹💐</p>
+                        <p>May your smile never fade, your blessings never run dry, and even on tough days you'll always pull through the storm. May this new age come with ease and less stress as you pass through this journey called life. We must bag this degree!😌.</p>
+                        <p>Have the most beautiful birthday, pretty girl! Keep shining, smiling, and keep being you. Lots of love🥳💖🎀.</p>
+                    </blockquote>
+                    <p class="friend-signoff">With lots of love, <strong>Mitchell</strong></p>
+                </article>
+                <article class="friend-note">
+                    <img class="friend-note-photo" src="images/oluoma.jpg" alt="Oluoma and Amarachi celebrating together">
+                    <p class="friend-note-label">A birthday wish</p>
+                    <blockquote>
+                        <p>Happy birthday to my girllll 🥳. I'm so glad uni brought us together. Having you as a friend is something I'll always be grateful for. I pray this new age brings you happiness, favour, answered prayers and all the beautiful things you deserve. May you always have reasons to smile. Love youuu girlie ❤️</p>
+                    </blockquote>
+                    <p class="friend-signoff">With love, <strong>Oluoma</strong></p>
+                </article>
+                <article class="friend-note">
+                    <img class="friend-note-photo" src="images/precious.jpg" alt="Precious and Amara celebrating together">
+                    <p class="friend-note-label">A birthday wish</p>
+                    <blockquote>
+                        <p>People say first impressions matter but that's not the case in every scenerio.</p>
+                        <p>If anyone should ask me what my first impression of Amara was, I would say, "a mean girl".😭😂</p>
+                        <p>I saw Amara on my first day in Sumas, but I didn't know who she was. Later on, I was able to tell who she was but she always looked mean.😭</p>
+                        <p>The first day I saw her smile was on a random day in canteen. She was talking to one of her friends from secondary school, and I could tell from that moment that she cherishes her friends a lot. I even had to mention to her that I had never seen her smile😂. That mean look was my first impression of her.</p>
+                        <p>But in this case, that impression didn't matter at all. How I and Amara got close is something I can't really say but she is definitely one of my favorite people❤️.</p>
+                        <p>Today, I am not just wishing you a blissful year, but I'm taking a moment to appreciate you for our friendship. Thank you for the little encouragements here and there, and your "Precious I di so smart" statement whenever I begin to doubt myself.🥹❤️</p>
+                        <p>I wish you the absolute best in life. The sky is your starting point💕</p>
+                        <p>A very beautiful girl with a madd face card and skin that radiates just like the sun! 😩😍 Keep glowing, my girl 🤭</p>
+                        <p>You are the true definition of "Acada🔥", even if you claim not to be smart 😂😂(which is a BIG lie). Don't allow little moments of self-doubt redefine you.</p>
+                        <p>Those little moments of doubt don't change how we see you, what your family says about you, and most especially, not what God says about you. Continue to be that confident girl I know, and never forget how capable and intelligent you are🌝</p>
+                        <p>I am so blessed to have you as my friend. May your life continue to blossom and flourish. May laughter never seize from your life, and may this new chapter bring you many happy moments and everything your heart desires.</p>
+                        <p>Everyone deserves an Amara but, God blessed me with two🥹</p>
+                        <p>Happy birthday my amazing girlll❤️</p>
+                        <p>I pray this friendship never ends🫂</p>
+                        <p>I love youuu soooo much! 😩❤️</p>
+                        <p>God bless you 💋💕</p>
+                    </blockquote>
+                    <p class="friend-signoff">With love, <strong>Precious</strong></p>
+                </article>
+                <article class="friend-note">
+                    <img class="friend-note-photo" src="onyinye.jpg.jpeg" alt="Onyinye and Amarachi together">
+                    <p class="friend-note-label">A birthday wish</p>
+                    <blockquote>
+                        <p>Happy Birthday, Amarachiiii! 🥳❤️🎉 Wishing you endless happiness, plenty of money, soft life, and all the beautiful things you deserve! 😂💕 Keep shining and being the amazing girl you are. Love youuu! 🥹❤️🥂</p>
+                    </blockquote>
+                    <p class="friend-signoff">With love, <strong>Onyinye</strong></p>
+                </article>
+                <article class="friend-note">
+                    <img class="friend-note-photo" src="zita.jpg.jpeg" alt="Zita and Amarachi together">
+                    <p class="friend-note-label">A birthday wish</p>
+                    <blockquote>
+                        <p>Happy birthday to one of the most special people school has given me❤️🥹</p>
+                        <p>Sometimes I think about how much we’ve been through together, and it amazes me that through all the fights, misunderstandings, reconciliations, laughter, tears, goofy moments and serious conversations, we’re still here. We’ve seen different sides of each other, the good, the bad and the ugly, yet somehow, we’ve continued to find our way back to each other.</p>
+                        <p>I’ll never forget my first day in uni, how you helped me carry my bags, accommodated me while I was sorting out my hostel issues, and eventually let me spend my entire year one in your room, even after I had sorted everything out😭❤️ And the fact that you told everyone in the first week that we were cousins still cracks me up. 😂 Looking back, I’m genuinely grateful for how you made my transition into university easier and for the memories we’ve made since then.</p>
+                        <p>We’ve basically shared a portion of life together, and that means more to me than words can explain. We’ve had our differences, our difficult days and our beautiful moments. You’ve also tried to kill me multiple times, but honestly, I wouldn’t have it any other way😭😂❤️</p>
+                        <p>I wouldn’t trade our journey for a perfect friendship that has never been tested, because ours has taught me that real connections aren’t always about getting everything right; sometimes, they’re about choosing to understand, forgive, grow and keep showing up for each other.</p>
+                        <p>On your birthday, I pray that life is kind to you. May God bless you beyond your imagination, grant your heart’s desires and give you countless reasons to smile. May this new chapter bring you peace, happiness, growth and everything beautiful you deserve.</p>
+                        <p>I hope this is only one of the many birthdays we’ll celebrate together. I hope we continue to grow alongside each other, witness each other’s milestones, laugh at the most ridiculous things, have our occasional disagreements, make up and create even more beautiful memories together.</p>
+                        <p>Thank you for being a part of my life and for sharing this portion of life with me. No matter how much life changes us or where our individual journeys take us, I hope there will always be a place for our friendship in the lives we’re building.</p>
+                        <p>Happy birthday, my person🥹❤️ Here’s to more life, more laughter, more memories and many more years of doing life together. I love you, and I’m genuinely grateful our paths crossed🫂❤️🎂</p>
+                    </blockquote>
+                    <p class="friend-signoff">With love, <strong>Zita</strong></p>
+                </article>
+                <article class="friend-note">
+                    <img class="friend-note-photo" src="tolu.jpg.jpeg" alt="Tolu and Amarachi together">
+                    <p class="friend-note-label">A birthday wish</p>
+                    <blockquote>
+                        <p>It’s your birthday today, and I want to remind you that you’re beautiful, you’re smart, you’re lovable, and you’re all that girl!</p>
+                        <p>It’s my pleasure to be that girl you trust, the girl you can be vulnerable with, the girl you can open up to. I am honoured to be that person, and I will always be happy to listen to you, anytime.</p>
+                        <p>I’d never forget how you made Model College livable, how you helped me with my academics, and how you believed in me even when I didn’t believe in myself. Do you remember how I almost went to Art class? 😭</p>
+                        <p>Thank God for you! I for dey regret by now. 😹</p>
+                        <p>My doctor in the making! 🥹❤️</p>
+                        <p>The world is not ready for the woman you’re becoming. Your light will shine, and darkness will not comprehend it.</p>
+                        <p>May God grant you all that your heart desires in this new year. May He answer all your secret prayers. You won’t have any reason to be sad; you have joy on your inside. Rejoice, my sister, it’s a blessed year already!</p>
+                        <p>My Igbo side fr fr! 😭❤️</p>
+                        <p>You’re a blessing to me, just as your name implies. I love you, my darling friend.</p>
+                        <p>Happiest Birthday, my Amarachi! ❤️</p>
+                    </blockquote>
+                    <p class="friend-signoff">From <strong>Tolu</strong></p>
+                </article>
+                <article class="friend-note">
+                    <img class="friend-note-photo" src="afoma.jpg.jpeg" alt="Afoma and Amarachi together">
+                    <p class="friend-note-label">A birthday wish</p>
+                    <blockquote>
+                        <p>Happy Birthday Beautiful.🥳🥳 May your year be as lovely as your heart. 🫶 Wishing you endless blessings, laughter, and soft life.❤️</p>
+                    </blockquote>
+                    <p class="friend-signoff">With love, <strong>Afoma</strong></p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section 5: Why she is special. Edit each feature paragraph to personalize it. -->
+        <section class="special" id="special" aria-labelledby="special-title">
+            <div class="special-inner">
+                <header class="special-heading">
+                    <div>
+                        <p class="section-label">05 / Why she is special</p>
+                        <h2 id="special-title">More than<br><em>beautiful.</em></h2>
+                    </div>
+                    <p class="special-subtitle">Because the most beautiful things about you cannot be captured in a photograph.</p>
+                </header>
+                <div class="special-grid">
+                    <article class="special-feature special-feature--heart">
+                        <div class="special-feature-heading">
+                            <span class="special-number" aria-hidden="true">01</span>
+                            <h3>Her heart</h3>
+                        </div>
+                        <p>Your kindness shows in the care you give and the way you make people feel seen, welcomed, and valued. Your compassion is a reminder that the people around you matter.</p>
+                    </article>
+                    <article class="special-feature special-feature--mind">
+                        <div class="special-feature-heading">
+                            <span class="special-number" aria-hidden="true">02</span>
+                            <h3>Her mind</h3>
+                        </div>
+                        <p>Your intelligence is matched by a curiosity that keeps reaching for more. Your ambition and determination give your ideas somewhere to go.</p>
+                    </article>
+                    <article class="special-feature special-feature--strength">
+                        <div class="special-feature-heading">
+                            <span class="special-number" aria-hidden="true">03</span>
+                            <h3>Her strength</h3>
+                        </div>
+                        <p>There is courage in continuing, even when the way forward asks a lot of you. You meet change with resilience and keep making room for what comes next.</p>
+                    </article>
+                    <article class="special-feature special-feature--light">
+                        <div class="special-feature-heading">
+                            <span class="special-number" aria-hidden="true">04</span>
+                            <h3>Her light</h3>
+                        </div>
+                        <p>You bring warmth into a room without needing to try. Your joy lifts ordinary moments and leaves the people around you a little brighter.</p>
+                    </article>
+                    <article class="special-feature special-feature--uniqueness">
+                        <div class="special-feature-heading">
+                            <span class="special-number" aria-hidden="true">05</span>
+                            <h3>Her uniqueness</h3>
+                        </div>
+                        <p>It is the little things, your way of seeing the world, your unmistakable presence, and all the details only you could bring together, that make you wholly yourself. No photograph could capture that.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 7: Birthday date and annual countdown -->
+        <section class="birthday-feature" id="birthday" aria-labelledby="birthday-title">
+            <div class="birthday-inner">
+                <p class="birthday-kicker">07 / Her special day</p>
+                <h2 id="birthday-title">The world celebrates<br>you today.</h2>
+                <div class="birthday-rule" aria-hidden="true"><span></span></div>
+                <time class="birthday-date" id="birthday-date" datetime="2026-12-11">
+                    <span class="birthday-date-main">December 11</span>
+                    <span class="birthday-date-year" id="birthday-date-year">2026</span>
+                </time>
+                <p class="birthday-status" id="birthday-status" aria-live="polite">A day worth celebrating.</p>
+                <div class="birthday-countdown" id="birthday-countdown" aria-label="Countdown to Amarachi's birthday" hidden>
+                    <div class="birthday-countdown-unit">
+                        <span class="birthday-countdown-value" data-countdown="days">00</span>
+                        <span class="birthday-countdown-label">Days</span>
+                    </div>
+                    <div class="birthday-countdown-unit">
+                        <span class="birthday-countdown-value" data-countdown="hours">00</span>
+                        <span class="birthday-countdown-label">Hours</span>
+                    </div>
+                    <div class="birthday-countdown-unit">
+                        <span class="birthday-countdown-value" data-countdown="minutes">00</span>
+                        <span class="birthday-countdown-label">Minutes</span>
+                    </div>
+                    <div class="birthday-countdown-unit">
+                        <span class="birthday-countdown-value" data-countdown="seconds">00</span>
+                        <span class="birthday-countdown-label">Seconds</span>
+                    </div>
+                </div>
+                <p class="birthday-message" id="birthday-message" hidden></p>
+            </div>
+        </section>
+
+        <!-- Section 8: Final birthday surprise. Edit the message paragraphs below. -->
+        <section class="final-surprise" id="final-surprise" aria-labelledby="final-surprise-title">
+            <div class="final-surprise-inner">
+                <p class="final-surprise-kicker">08 / A final page, just for you</p>
+                <h2 id="final-surprise-title">One last thing,<br><em>my love.</em></h2>
+                <button class="surprise-button" id="surprise-button" type="button" aria-expanded="false" aria-controls="final-message">
+                    Open your final surprise
+                </button>
+                <article class="final-message" id="final-message" aria-labelledby="final-message-title" tabindex="-1" hidden>
+                    <p class="final-message-kicker" id="final-message-title">A birthday letter for Amarachi</p>
+                    <div class="final-message-copy">
+                        <p>Happy birthday, my Amarachi.</p>
+                        <p>Today is a celebration of the beautiful person you are, the joy you bring into the lives of others, and the countless wonderful things that make you special.</p>
+                        <p>I hope this new chapter brings you peace, laughter, beautiful opportunities, answered prayers, and reasons to smile even on the days when life feels difficult.</p>
+                        <p>May you always remember how deeply you are appreciated, how much your presence matters, and how deserving you are of every beautiful thing life has to offer.</p>
+                        <p>Thank you for being you.</p>
+                        <p>Happy birthday, my love.</p>
+                    </div>
+                    <div class="final-closing">
+                        <p>Happy birthday, Amarachi.</p>
+                        <p>Mi Querida, Mi Corazón.</p>
+                        <p>Forever celebrating you.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section 9: Final editorial page -->
+        <section class="final-page" id="final-page" aria-labelledby="final-page-title">
+            <div class="final-page-inner">
+                <p class="final-page-kicker">The last page</p>
+                <h2 id="final-page-title">And the story continues...</h2>
+                <div class="final-page-divider" aria-hidden="true"><span></span></div>
+                <div class="final-page-copy">
+                    <p>Some people make the world feel a little softer, a little brighter, and a lot more beautiful simply by being in it.</p>
+                    <p>Amarachi, this edition celebrates you, but no collection of photographs or words could ever capture everything that makes you special.</p>
+                    <p>May this new chapter bring you beautiful beginnings, unforgettable memories, genuine happiness, and the courage to keep becoming everything you dream of being.</p>
+                    <p>This is your story.</p>
+                    <p>And the most beautiful chapters are still ahead.</p>
+                </div>
+                <p class="final-page-signature">Mi Querida, Mi Corazón.</p>
+                <p class="final-page-greeting">With love, always.</p>
+                <button class="back-to-cover" id="back-to-cover" type="button">Back to the cover</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Magazine footer and signature -->
+    <footer>
+        <span>The Amarachi Edition</span>
+        <span>The Birthday Issue · December 11, 2026</span>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
